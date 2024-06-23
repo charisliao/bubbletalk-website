@@ -181,7 +181,7 @@ const Contact = () => {
                                     </div>
                                     <div className="flex flex-col">
                                         <h2 className="text-2xl">Office Address</h2>
-                                        <p className="text-gray-400">Ilo Awela, Ota, Ogun State</p>
+                                        <p className="text-gray-400">2495 Bancroft Way, Berkeley, CA 94720</p>
                                     </div>
                                 </div>
                     
