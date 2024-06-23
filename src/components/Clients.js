@@ -1,8 +1,13 @@
 import React from 'react';
+import charisPic from '../images/charis-pic.jpeg';
+import apratimPic from '../images/apratim-pic.jpeg';
+import joshuaPic from '../images/IMG_2145.JPG'; // Assuming this is Joshua's picture
 
 const teamMemberStyle = {
     height: '10rem',
-    width: 'auto',
+    width: '10rem',
+    objectFit: 'cover',
+    borderRadius: '50%',
     mixBlendMode: 'colorBurn'
 }
 
@@ -23,10 +28,7 @@ const Team = () => {
                         
                         <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-6">
                             <div className="flex justify-center mb-4">
-                                <div style={teamMemberStyle} className="bg-gray-300 w-32 h-32 rounded-full flex items-center justify-center">
-                                    {/* Placeholder for headshot */}
-                                    <span className="text-gray-500">Headshot</span>
-                                </div>
+                                <img src={charisPic} alt="Charis Liao" style={teamMemberStyle} className="bg-gray-300 w-32 h-32 rounded-full flex items-center justify-center" />
                             </div>
                             <div className="text-center">
                                 <h4 className="font-semibold my-4 text-lg md:text-2xl">Charis Liao</h4>
@@ -38,10 +40,7 @@ const Team = () => {
 
                         <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-6">
                             <div className="flex justify-center mb-4">
-                                <div style={teamMemberStyle} className="bg-gray-300 w-32 h-32 rounded-full flex items-center justify-center">
-                                    {/* Placeholder for headshot */}
-                                    <span className="text-gray-500">Headshot</span>
-                                </div>
+                                <img src={joshuaPic} alt="Joshua Blomgren" style={teamMemberStyle} className="bg-gray-300 w-32 h-32 rounded-full flex items-center justify-center" />
                             </div>
                             <div className="text-center">
                                 <h4 className="font-semibold my-4 text-lg md:text-2xl">Joshua Blomgren</h4>
@@ -53,10 +52,7 @@ const Team = () => {
 
                         <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-6">
                             <div className="flex justify-center mb-4">
-                                <div style={teamMemberStyle} className="bg-gray-300 w-32 h-32 rounded-full flex items-center justify-center">
-                                    {/* Placeholder for headshot */}
-                                    <span className="text-gray-500">Headshot</span>
-                                </div>
+                                <img src={apratimPic} alt="Apratim Banerjee" style={teamMemberStyle} className="bg-gray-300 w-32 h-32 rounded-full flex items-center justify-center" />
                             </div>
                             <div className="text-center">
                                 <h4 className="font-semibold my-4 text-lg md:text-2xl">Apratim Banerjee</h4>
